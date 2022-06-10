@@ -1,11 +1,11 @@
 //Business Logic
 
 function returnNumberRange(number) {
-  const numberArray = [1,2,3,4,5,6,7,8,9]
+  const array = [" 1"," 'Beep'"," 'Boop'"," 4"," 'Won't you be my neighbor?'"," 6"," 7"," 8"," 9"]
   let range = []
-  for (let i = 0; i < numberArray.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (i === number-0) break;
-    range.push(numberArray[i]);
+    range.push(array[i]);
 
   }
   return range;
@@ -17,7 +17,7 @@ $(document).ready(function() {
   $("form#formOne").submit(function(event) {
     event.preventDefault();
     $("#results").show();
-    const number = parseInt($("#numberInput").val());
+    const number =($("#numberInput").val());
     const results = returnNumberRange(number);
     $("#results").text(results);
     
