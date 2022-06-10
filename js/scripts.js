@@ -19,7 +19,18 @@ $(document).ready(function() {
     $("#results").show();
     const number =($("#numberInput").val());
     const results = returnNumberRange(number);
-    $("#results").text(results);
     
+    // if(number === 2) {
+    //   $("#results").text('"Beep!"') 
+    // } else if(number === 3) {
+    //   $("#results").text('"Boop!"')
+    // } else if(number == 5){
+    //   $("#results").text('"Wont you be my neighbor?"')
+    // } else {
+      $("#results").text(results);
+    
+      
+    
+
   });
 });

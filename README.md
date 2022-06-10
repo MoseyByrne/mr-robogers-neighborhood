@@ -1,8 +1,14 @@
-Describe: returnInput()
+Describe: returnNumberRange()
 
-Test: "It should return an array of numbers from 0 to the user's inputted number"
-Code: beepBoop(5);
-Expected Output: [0, 1, 2, 3, 4, 5]
+Test: "It should return an array of numbers from 1 to the user's inputted number"
+Code: returnNumberRange(5);
+Expected Output: [1, 2, 3, 4, 5]
+
+Describe: returnNumberRange()
+
+Test: "It should return "Beep!" when 2 is entered"
+Code: returnNumberRange(2);
+Expected Output: ["Beep!"]
 
 
 
