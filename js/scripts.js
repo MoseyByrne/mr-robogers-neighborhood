@@ -17,8 +17,9 @@ $(document).ready(function() {
   $("form#formOne").submit(function(event) {
     event.preventDefault();
     $("#results").show();
-    const number =($("#numberInput").val());
+    const number = parseInt($("#numberInput").val());
     const results = returnNumberRange(number);
-    $("#results").append(results + " ");
+    $("#results").text(results);
+    
   });
 });
