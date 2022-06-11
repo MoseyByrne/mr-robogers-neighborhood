@@ -1,11 +1,15 @@
 //Business Logic
 
 function returnNumberRange(number) {
-  const array = [0,1,2,3,4,5,6,7,8,9]
+  let string = parseInt(number);
+  let text = string.split("");
   let range = []
-  for (let i = 0; i < array.length; i++) {
-    if (i === number+1) break;
-    range.push(array[i])
+  for (let i = 0; i <= number; i++) {
+    if(string.includes(1)){
+      index[i] = "Won't you be my neighbor?"
+    }
+    
+    range.push(number[i])
     }
     return range;
   };
