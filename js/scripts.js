@@ -6,11 +6,14 @@ function returnNumberRange(number) {
   for (let i = 0; i <= number; i++) {
    range[i]=i;
   }
-  if (range.includes(1)) {
-    range[i]= "Beep!";
+  let answerArray = range.toString().split(",")
+  answerArray.forEach(function(element) {
+
+  if (element.includes(1)) {
+    range = "Beep!";
 
   }
-  
+});
 
   return range;
 }
