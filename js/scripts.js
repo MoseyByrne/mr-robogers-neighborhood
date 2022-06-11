@@ -1,18 +1,14 @@
 //Business Logic
 
 function returnNumberRange(number) {
-  let string = parseInt(number);
-  let text = string.split("");
   let range = []
   for (let i = 0; i <= number; i++) {
-    if(string.includes(1)){
-      index[i] = "Won't you be my neighbor?"
-    }
-    
-    range.push(number[i])
-    }
-    return range;
-  };
+   range.push(parseInt(i));
+
+  }
+  return range;
+}
+
 
 
 // 
