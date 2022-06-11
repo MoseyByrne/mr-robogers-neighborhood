@@ -1,11 +1,17 @@
 //Business Logic
 
 function returnNumberRange(number) {
+  
   let range = []
   for (let i = 0; i <= number; i++) {
-   range.push(parseInt(i));
+   range[i]=i;
+  }
+  if (range.includes(1)) {
+    range[i]= "Beep!";
 
   }
+  
+
   return range;
 }
 
