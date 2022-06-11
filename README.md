@@ -14,43 +14,26 @@ Test: "It should return "Beep!" when 1 is a part the user's input"
 Code: returnNumberRange(41);
 Expected Output: ["Beep!"]
 
-<!-- Describe: returnNumberRange()
-
-Test: "It should return "Boop!" when 2 is the user's input"
-Code: returnNumberRange(2);
-Expected Output: ["Boop!"]
-
-Describe: returnNumberRange()
 
 Test: "It should return "Boop!" when 2 is a part of the user's input"
 Code: returnNumberRange(42);
 Expected Output: ["Boop!"]
 
-Describe: returnNumberRange()
-
-Test: "It should return "Won't you be my neighbor?" when 3 is the user's input"
-Code: returnNumberRange(3);
-Expected Output: ["Won't you be my neighbor?"]
-
-Describe: returnNumberRange()
 
 Test: "It should return "Won't you be my neighbor?" when 3 is a part of the user's input"
 Code: returnNumberRange(43);
 Expected Output: ["Won't you be my neighbor?"]
 
-Describe: returnNumberRange()
 
 Test: "It should return "Beep!" instead of 1 in the array"
 Code: returnNumberRange(3);
 Expected Output: [0,"Beep!", 2, 3]
 
-Describe: returnNumberRange()
 
 Test: "It should return "Boop!" instead of 2 in the return array"
 Code: returnNumberRange(3);
 Expected Output: [1, "Boop!", 3]
 
-Describe: returnNumberRange()
 
 Test: "It should return "Won't you be my neighbor?" instead of 3 in the return array"
 Code: returnNumberRange(3);

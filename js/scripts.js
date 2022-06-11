@@ -6,12 +6,16 @@ function returnNumberRange(number) {
   for (let i = 0; i <= number; i++) {
    range[i]=i;
   }
-  let answerArray = range.toString().split(",")
-  answerArray.forEach(function(element) {
-
-  if (element.includes(1)) {
+  let splitString = range.toString().split(",")
+  splitString.forEach(function(element) {
+    if (element.includes(3)) {
+      range = "Won't you be my neighbor?"
+    }
+    if (element.includes(2)) {
+      range = "Boop!";
+    }
+  else if (element.includes(1)) {
     range = "Beep!";
-
   }
 });
 
