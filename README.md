@@ -4,6 +4,20 @@ Test: "It should return an array of numbers from 0 to the user's inputted number
 Code: returnNumberRange(5);
 Expected Output: [0, 1, 2, 3, 4, 5]
 
+Test: "It should return "Beep!" instead of 1 in the array"
+Code: returnNumberRange(4);
+Expected Output: [0,"Beep!", 2, 3, 4]
+
+Test: "It should return "Boop!" instead of 2 in the return array"
+Code: returnNumberRange(4);
+Expected Output: [0, "Beep!, "Boop!", 3, 4]
+
+
+Test: "It should return "Won't you be my neighbor?" instead of 3 in the return array"
+Code: returnNumberRange(4);
+Expected Output: [0, "Beep!, "Boop!","Won't you be my neighbor?", 4]  -->
+
+
 
 Test: "It should return "Beep!" when 1 is the user's input"
 Code: returnNumberRange(1);
@@ -25,19 +39,9 @@ Code: returnNumberRange(43);
 Expected Output: ["Won't you be my neighbor?"]
 
 
-Test: "It should return "Beep!" instead of 1 in the array"
-Code: returnNumberRange(3);
-Expected Output: [0,"Beep!", 2, 3]
 
 
-Test: "It should return "Boop!" instead of 2 in the return array"
-Code: returnNumberRange(3);
-Expected Output: [1, "Boop!", 3]
 
-
-Test: "It should return "Won't you be my neighbor?" instead of 3 in the return array"
-Code: returnNumberRange(3);
-Expected Output: [1, 2,"Won't you be my neighbor?"]  -->
 
 
 
