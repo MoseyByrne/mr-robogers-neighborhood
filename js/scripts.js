@@ -33,6 +33,6 @@ $(document).ready(function() {
     event.preventDefault();
     $("#results").show();
     const number =($("input#numberInput").val());
-  $("#results").text(returnNumberRange(number));
+    $("#results").text(returnNumberRange(number));
   });
 });

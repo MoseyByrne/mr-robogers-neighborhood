@@ -22,7 +22,7 @@ Expected Output: [0, "Beep!, "Boop!","Won't you be my neighbor?", 4]  -->
 
 #### By Mo Byrne
 
-#### A website with short quiz that will tell you to study Ruby, C#, or JavaScript.
+#### A website with a place to input a number.
 
 ## Technologies Used
 
@@ -34,7 +34,7 @@ Expected Output: [0, "Beep!, "Boop!","Won't you be my neighbor?", 4]  -->
 
 ## Description
 
-This webpage was made by Mo Byrne to be their Independent Project and Code Review for the JavaScript and Web Browers lessons in the Introduction to Programming part of Epicodus full-time C#/REACT track 2022. There is a quiz, that is not to be taken seriosly, that will tell you if you should learn Ruby, C#, or JavaScript. 
+This webpage was made by Mo Byrne to be their Independent Project and Code Review for the Looping and Arrays lessons in the Introduction to Programming part of Epicodus full-time C#/REACT track 2022. There is a space to enter a number and a button to submit it. The website will return a range going from 0 to the number submitted. In this range every number with a 1 in it is replaced with "Beep!", every number with a two in it is replaced with "Boop!", and every number with a 3 in it is replaced with "Won't you be my neighbor?".
 
 ## Setup/Installation Requirements
 
@@ -52,4 +52,4 @@ This webpage was made by Mo Byrne to be their Independent Project and Code Revie
 
 MIT
 
-Copyright (c) 06/15/2022 Mo Byrne
+Copyright (c) 06/16/2022 Mo Byrne
